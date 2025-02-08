@@ -6,6 +6,7 @@
         android:label="check_network"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBjT0Um92nHtrnZLeWjLLf9nwjUvyFfMac"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
